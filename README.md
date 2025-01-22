@@ -27,4 +27,5 @@ This project could be used for social good by means of identifying and combating
 As next steps, I'd want to evaluate the model on articles from a variety of reputable news sources of different political leanings and from different countries and cultures. This would give a bigger picture of the model's performance on the swaths of articles that exist on the Internet and mitigate possible political or cultural bias. I'd also want to evaluate the model on factual versus fake social media posts to see if its use case could be extended beyond just news. Since none of the articles were padded because they were all longer than the token max, I'd want to test some really short articles that would have padding to see how they would perform. I'd also want to dig into why the model classifies articles as fake or real, as this could increase transparency and help us better understand the model. Finally, I would want to try to use the uncased version of BERT to understand how significant of a role the capitilization of words is playing in the process.
 
 **Credit**
+
 I copy-and-pasted code from the L4/5 notebook and edited it to suit my purposes.
